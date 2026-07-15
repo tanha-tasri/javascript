@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: azure;">
+    <div class="parent">
+        <div class="day">sunday</div>
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+    </div>
+   <em>hello</em>
+   <mark>my name is tanha</mark>
+   <ins>now i will drink tea</ins>
+   <a href="hello"> my name is tasri</a>
+   <p>H <sub>2</sub>O</p>
+   <img src="" alt="">
+   <div>
+    <a href="https://green.edu.bd/">
+        <img src="" height="100" width="100" alt="green uni bd">
+    </a>
+   </div>
+
+   <div>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <h3>nested unorder list</h3>
+    <ul>
+        <li>squre</li>
+           <ul>laptop</ul>
+           <ul>Tv</ul>
+        <li>circle</li>
+            <ul>fan</ul>
+            <ul>clock</ul>   
+    </ul>
+
+   </div>
+
+   <div>
+    <h2>describtion list</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>hyperText makup language: the structure of web page</dd>
+        <dt>CSS</dt>
+        <dd>cascading style sheets</dd>
+        <dt>SWE</dt>
+        <dd>software engineering</dd>
+    </dl>
+   </div>
+
+   <!-- <div>
+    <table border="1" width = "400" cellpadding="10" cellspacing="5">
+        <caption>student information</caption>
+        <tr>
+            <th>Name</th>
+            <th>Dept</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>Tanha</td>
+            <td>SWE</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Tasri</td>
+            <td>SWE</td>
+            <td>40</td>
+        </tr>
+    </table>
+   </div> -->
+
+   <div>
+    <table border=1" width="400" cellpadding="5" cellspecing="5">
+        <caption>student table</caption>
+        <tr>
+            <th colspan="4">Department SWE</th>
+        </tr>
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th rowspan="2">program</th>
+        </tr>
+        <tr>
+            <td>First name</td>
+            <td>last name</td>
+        </tr>
+        <tr>
+            <td>Tanha</td>
+            <td>Tasri</td>
+            <td>40</td>
+            <td>211D1</td>
+         
+        </tr>
+    </table>
+   </div>
+
+   <div>
+    <h1>Registration Form</h1>
+    <form action="">
+        <label for="sname">student name:</label>
+        <input type="text" placeholder="Enter your name" required>
+        <br>
+        <label for="sid">student id :</label>
+        <input type="text" placeholder="e.g. 242034040" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" >
+
+        <br>
+        <input type="radio" name="gender" value="M">Male <br>
+        <input type="radio" name="gender" value="F">Female <br>
+
+        country: <br>
+        <select name="country" >
+            <option value="">please select your country </option>
+            <option value="bd">Bangladesh</option>
+            <option value="bd">India</option>
+            <option value="bd">pakistan</option>
+        </select><br>
+
+        <label for="Address">Address :</label><br>
+        <textarea name="" id=""></textarea>
+    </form>
+   </div>
+
+</body>
+<script>
+   const parent = document.querySelector('.parent')
+//    console.log(parent);
+//    console.log(parent.children);
+//    console.log(parent.children[1].innerHTML);
+
+   for(let i =0;i<parent.children.length;i++)
+   {
+    console.log(parent.children[i].innerHTML);
+    
+   }
+   
+   
+</script>
+
+</html>
