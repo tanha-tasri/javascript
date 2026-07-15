@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Top five programming language</h2>
+    <ol>
+        <ol>javascript</ol>
+        <ol>python</ol>
+        <ol>java</ol>
+        <ol>c++</ol>
+        <ol>mysql</ol>
+    </ol>
+    <h2>list of unorder </h2>
+    <ul>
+        <li>web
+            <ul>javascript</ul>
+            <ul>HTML</ul>
+            <ul>CSS</ul>
+        </li>
+        <li>system
+            <ul>rust</ul>
+            <ul>GO</ul>
+        </li>
+        <li>data science
+            <ul>
+             mysql
+            </ul>
+        </li>
+    </ul>
+
+    <section>
+        <h2>student Table</h2>
+        <table border="1" width="500" cellpadding="20" cellspecing="50">
+            <thead>
+                <tr>
+                   <th>Day/Time</th>
+                   <th>9:00 -10:00</th>
+                   <th>10:00 -11:00</th>
+                   <th>11:00 -12:00</th>
+                   <th>12:00 -1:00</th>
+                   <th>1:00 -2:00</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td>Math</td>
+                    <td>Physics</td>
+                    <td colspan="2">Chemistry Lab</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Geography</td>
+                    <td>Art</td>
+                    <td>Lunch</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>student form</h2>
+        <form action="">
+            <label for="">First Name: </label>
+            <input type="text" placeholder="Enter your first name" required><br>
+            <label for="">Last Name: </label>
+            <input type="text" placeholder="Enter your last name" required><br>
+            <label for="">Email: </label>
+            <input type="text" placeholder="e.g. jon@gmail.com" required><br>
+            <label for="">Phone Number: </label>
+            <input type="text" placeholder="e.g. 019345784484" pattern="[1-9]{11}" required><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" required><br>
+
+          Gernder : <br>
+         
+            <input type="radio" name="gender" value="male" required>
+            <label for="">Male</label> 
+            <input type="radio" name="gender" value="Female" >
+            <label for="">Female</label>
+            <input type="radio" name="gender" value="other" >
+            <label for="">other</label><br>
+            
+       course: <br>
+       <select name="course :">
+            <option value="">select your course</option>
+            <option value="">structure programming</option>
+            <option value="">object oriented programming</option>
+            <option value="">Data structure</option>
+            <option value="">Algorithm</option>
+       </select>   <br>
+
+       <label for="">Address:</label>
+       <textarea name="address" id=""></textarea> <br>
+
+       <label for="">certificate uploade :</label>
+       <input type="file" accept=".pdf, .jpg" required>
+
+       <div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+       </div>
+        </form>
+    </section>
+</body>
+</html>
